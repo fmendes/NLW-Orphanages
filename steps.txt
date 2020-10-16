@@ -74,5 +74,35 @@ npm link yup
 
 
 
+yarn add axios
+
+yarn add cors
+
+
+-- mobile app
+
+yarn global add expo-cli
+-- or npm install -g expo-cli
+
+expo init mobile
+-- choose blank Typescript
+
+yarn start
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
