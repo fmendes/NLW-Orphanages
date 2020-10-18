@@ -57,8 +57,6 @@ export default function CreateOrphanage() {
       alert( 'Error while creating an orphanage. ' + ( e as Error ).message );
     }
 
-
-    
   }
 
   function handleSelectImages( event: ChangeEvent<HTMLInputElement> ) {

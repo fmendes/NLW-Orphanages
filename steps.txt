@@ -89,11 +89,28 @@ expo init mobile
 
 yarn start
 
+-- if this error appear when running xcrun: unable to find utility "simctl"
+-- xcode-select -s /Applications/Xcode.app
+
+expo install react-native-maps
+
+expo install @expo-google-fonts/nunito expo-font
+
+--yarn add @react-navigation/native
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+yarn add @react-navigation/stack
+
+-- if using android emulator
+adb reverse tcp:3333 tcp:3333
 
 
+expo install expo-image-picker
 
 
+CHALLENGES:
 
+https://www.notion.so/Vers-o-2-0-do-Happy-c754db7a4d41469e8c2d00fcf75392c4
 
 
 
